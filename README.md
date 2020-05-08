@@ -1,4 +1,4 @@
-# grocy-barcode-plugin-shamacon
+# grocy-barcode-plugin
 
 UPC search plugin for grocy; connects to upc.shamacon.us.
 
