@@ -1,8 +1,8 @@
 <?php
 
-
 namespace GrocyPlugins\BarcodeScanner\Requests;
 
+use Exception;
 
 class BarcodeLookupRequest
 {
