@@ -1,0 +1,13 @@
+{
+    "name": "shamacon/grocy-barcode-plugin",
+    "description": "A barcode lookup plugin for Grocy",
+    "type": "project",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "GrocyPlugins\\BarcodeScanner\\": "src//"
+        }
+    }
+}
