@@ -43,10 +43,10 @@ class BarcodeLookupResult
         }
 
         $this->setName($params['name']);
-        $this->setLocationId($params['location_id']);
-        $this->setQuIdPurchase($params['quantity_units']);
-        $this->setQuIdStock($params['quantity_units']);
-        $this->setQuFactorPurchaseToStock($params['purchase_to_stock']);
+        $this->setLocationId($params['Locations'][0]->id);
+        $this->setQuIdPurchase($params['QuantityUnits'][0]->id);
+        $this->setQuIdStock($params['QuantityUnits'][0]->id);
+        $this->setQuFactorPurchaseToStock($params['purchase_to_stock'] ?? 1);
         $this->setBarcode($params['barcode']);
     }
 

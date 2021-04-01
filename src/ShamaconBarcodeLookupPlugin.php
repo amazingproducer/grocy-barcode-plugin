@@ -21,6 +21,7 @@ class ShamaconBarcodeLookupPlugin extends BaseBarcodeLookupPlugin
 			return null;
 		}
 
+		$result['data']['barcode'] = $barcode;
 		$data = new BarcodeLookupResult($result['data']);
 		return $data->toArray();
 	}
